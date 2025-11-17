@@ -1,1 +1,1 @@
-# Butterfly-Recognition
+# CIFAR-10
