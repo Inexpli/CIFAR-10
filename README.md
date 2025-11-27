@@ -11,13 +11,6 @@ The dataset is divided into five training batches and one test batch, each with 
 
 ## Model with 93.82% Accuracy:
 
-### Training variables:
-```jupyter
-Training dataset: 50000
-Validation dataset: 5000
-Test dataset: 5000 
-```
-
 ```python
 loss_function = nn.CrossEntropyLoss()
 optimizer = optim.SGD(net.parameters(), lr=0.1, momentum=0.9, weight_decay=5e-4)
@@ -66,11 +59,6 @@ class MyResnet(nn.Module):
 ## Model with 92.36% Accuracy:
 
 ### Training variables:
-```jupyter
-Training dataset: 50000
-Validation dataset: 5000
-Test dataset: 5000 
-```
 
 ```python
 loss_function = nn.CrossEntropyLoss()
@@ -115,11 +103,6 @@ class MyResnet(nn.Module):
 ## Model with 89.26% Accuracy:
 
 ### Training variables:
-```jupyter
-Training dataset: 50000
-Validation dataset: 5000
-Test dataset: 5000 
-```
 
 ```python
 loss_function = nn.CrossEntropyLoss()
